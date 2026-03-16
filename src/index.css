@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;600;700&display=swap');
+
+body {
+  @apply bg-background text-foreground font-inter antialiased overflow-hidden;
+}
+
+.glass-card {
+  @apply bg-glass border border-glass-border backdrop-blur-xl rounded-2xl;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400;
+}
